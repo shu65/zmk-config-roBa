@@ -22,7 +22,7 @@
         };
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp SQT>;
             key-positions = <20 21>;
         };
 
@@ -57,10 +57,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                            &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                    &kp MINUS          &kp H        &kp J  &kp K      &kp L    &mt LEFT_CONTROL SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp LEFT_BRACKET                 &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &mt LSHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &kp LANGUAGE_2     &lt 1 ENTER                             &kp ESCAPE
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                            &kp Y               &kp U  &lt 5 I    &kp O    &kp P
+&mt LCTRL A       &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                    &kp MINUS          &kp H               &kp J  &kp K      &kp L    &mt LEFT_CONTROL SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp LEFT_BRACKET                 &kp RIGHT_BRACKET  &kp N               &kp M  &kp COMMA  &kp DOT  &mt LSHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &kp LANGUAGE_1     &mt LEFT_ALT ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
