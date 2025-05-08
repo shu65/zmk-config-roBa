@@ -81,7 +81,7 @@
 &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                        &kp NUMBER_6  &kp N7   &kp N8          &kp N9          &kp N0
 &mt LCTRL F1       &kp F2        &kp F3        &kp F4        &kp F5   &trans      &kp F13  &kp F11       &kp F12  &kp F13         &kp UP_ARROW    &mt LCTRL BSPC
 &mt LEFT_SHIFT F6  &kp F7        &kp F8        &kp F9        &kp F10  &trans      &trans   &trans        &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&trans             &trans        &trans        &trans        &trans   &trans      &trans   &trans                                                 &kp F12
+&trans             &trans        &trans        &trans        &trans   &trans      &trans   &kp DELETE                                             &kp F12
             >;
         };
 
@@ -90,7 +90,7 @@
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                                               &kp LS(NUMBER_6)  &kp LS(NUMBER_7)   &kp LS(NUMBER_8)  &kp LS(N9)         &kp LS(NUMBER_0)
 &kp LCTRL         &kp KP_NUMBER_4   &kp KP_NUMBER_5   &kp KP_NUMBER_6   &kp ASTERISK      &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp MINUS         &kp EQUAL          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt LS(LCTRL) DEL
 &kp LEFT_SHIFT    &kp KP_NUMBER_1   &kp KP_NUMBER_2   &kp KP_NUMBER_3   &kp PERIOD        &kp EQUAL                    &trans          &kp TILDE         &kp RIGHT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE    &mt LSHFT NON_US_BACKSLASH
-&trans            &trans            &trans            &trans            &trans            &trans                       &trans          &trans                                                                    &kp PIPE
+&trans            &trans            &trans            &trans            &trans            &trans                       &trans          &kp BACKSPACE                                                             &kp PIPE
             >;
         };
 
